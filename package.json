@@ -1,8 +1,8 @@
 {
   "name": "teamtwo",
   "version": "1.0.0",
-  "description": "project1 team 2",
-  "main": "index.js",
+  "description": "",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,13 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/FWK19s/TeamTwo.git"
   },
-  "author": "team 2",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/FWK19s/TeamTwo/issues"
   },
   "homepage": "https://github.com/FWK19s/TeamTwo#readme",
   "dependencies": {
+    "ejs": "^3.0.1",
     "express": "^4.17.1"
   }
 }
