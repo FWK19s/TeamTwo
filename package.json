@@ -7,6 +7,7 @@
     "express": "^4.17.1"
   },
   "devDependencies": {},
+ 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/FWK19s/TeamTwo/issues"
   },
+ 
   "homepage": "https://github.com/FWK19s/TeamTwo#readme"
+ 
+  "homepage": "https://github.com/FWK19s/TeamTwo#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  }
+ 
 }
