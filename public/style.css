@@ -1,0 +1,8 @@
+*{
+box-sizing: border-box;
+}
+header{
+    background-color: aquamarine;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+}
