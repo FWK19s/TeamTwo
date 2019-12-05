@@ -1,20 +1,24 @@
- 
-*{
-box-sizing: border-box;
-padding:0;
-margin:0;
-}
 
-*{
-box-sizing: border-box;
- 
-}
-header{
-    background-color: aquamarine;
-    font-size: xx-large;
-    font-family: 'Courier New', Courier, monospace;
- 
-}
- 
+.navigation{
+    display: flex;
 
- 
+}
+.persons{
+text-decoration: none;
+display: flex;
+
+}
+.persons li{
+list-style: none;
+padding-left:50px;
+font-size: 24px;
+text-align: center;
+}
+ /****submission.html****/
+#section {
+    width: 80%;
+    margin: 3% auto;
+    height: 85vh;
+    background-color: #d2c7c7d9;
+    border-radius: 40px;
+}
