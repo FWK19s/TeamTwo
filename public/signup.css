@@ -1,0 +1,7 @@
+form{
+display: flex;
+flex-direction: column;
+margin: 5% 30%;
+background-color: #ddd;
+padding: 30px;
+}
