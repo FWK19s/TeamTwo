@@ -8,7 +8,15 @@ app.get("/", (req, res) => {
 app.get("/signup", (req, res) => {
   res.sendFile(__dirname + "/signup.html");
 });
-app.get("/submission", (req, res) => {
-  res.sendFile(__dirname + "/submission.html");
+app.get("/static/submission", (req, res) => {
+  res.sendFile(__dirname + "/static/submission.html");
 });
+app.post("/static/signup.html",(req,res)=>{
+  res.sendFile(__dirname + "/public/submission.html");
+})
+/*app.get("/static/signup/lname/:name", (req, res) => {
+ var user=req.params.name;
+res.send ('Welcom' +user);
+console.log( 'Welcom' +user);
+});*/
 app.listen(8080);
